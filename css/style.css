@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none !important;
+}
+.body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.navigation ul {
+	display: flex;
+	list-style-type: none;
+}
+.navigation ul li {
+	margin: 0 14px;
+	font-size: 14px;	
+}
+.navigat {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px !important;	
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	border-bottom: none;
+	margin-left: 10px;  
+}
+.menu {
+	position: fixed;
+	width: 100%;
+	color: #fff;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.navigat:hover {
+	border-bottom: 1px solid #fdbfc3;
+	color: #fdbfc3;
+
+} 
+.line-logo {
+	margin-left: -40px;
+}
+/*Portfolio PSD Template*/
+.header {
+	background: url('../img/bagound.png');
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.h1 {
+	font-size: 40px;
+	font-weight: 100 !important;
+}
+.btn {
+	width: 154px;
+	height: 46px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-top: 26px;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.btn:hover {
+	background: #fff;
+	color: #f74c55;
+}
+.head {
+	color: #fff !important;
+	/*margin-top: 200px;*/
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.title {
+	margin-top: 10px;
+	font-weight: 100 !important;
+}
+/*There are only 3 colors, 10 digits*/
+.h2 {
+	font-size: 30px;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+.subtitle {
+	font-size: 14px;
+	color: #404040;
+	margin-top: 25px;
+}
+/*.optimized*/
+.fon {
+	/*background: #404040;*/
+}
+.h3 {
+	font-size: 22px;
+	color: #fff;
+	margin-left: 15px;
+}
+.optimized {
+	width: 39%;
+	height: 306px;
+	background: #404040;
+	padding: 2% 2% 2% 19%; 
+	/*padding: 30px 35px 60px 300px;*/
+}
+.responsive {
+	width: 22%;
+	height: 306px;
+	background: #f74c55;
+	padding: 2% 2% 2% 2%;
+	/*padding: 30px 35px 60px 35px;*/
+}
+.services {
+	width: 39%;
+	height: 306px;
+	background: #2d5f3b;
+	padding: 2% 19% 2% 2%;
+	/*padding: 30px 300px 60px 35px;*/
+}
+.bagraund-plus {
+	width: 32px;
+	height: 32px;
+	background: rgba(39,39,39,0.4);	
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	float: right;
+}
+.bagraund-plus:hover {
+	background: rgba(39,39,39,1);
+}
+.bloc {
+	
+
+}
+.text-lorem {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+}
+
+.black {
+	width: 36px;
+	height: 10px;
+	background: #404040;
+}
+.pink {
+	width: 36px;
+	height: 10px;
+	background: #fb636b;
+}
+.orange {
+	width: 36px;
+	height: 10px;
+	background: #ee732f;
+}
+.dark-pink {
+	width: 36px;
+	height: 10px;
+	background: #f74c55;
+
+}
+
+
+
+.green {
+	width: 36px;
+	height: 10px;
+	background: #2d5f3b;
+}
+
+/*Music*/
+.music-bagraund {
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('../img/Layer.png');
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.music-head {
+	font-size: 42px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: 100;
+}
+.colorful {
+	font-weight: 900;
+}
+.btns {
+	width: 182px;
+}
+.btns:hover {
+	color: #131f1d;
+}
+/*.footer*/
+.footer {
+	height: 70px;
+}
+.footer-сopyright {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	margin-top: 25px
+}
+
+		
+@media screen and (max-width: 768px) {	
+	.container {
+		width: 100%;
+		overflow-x: hidden;	
+	}
+	/*menu-nav*/
+	.menu-nav {
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		margin-right: 0 !important;
+		max-width: 768px;
+	}
+	.navbar {
+		background-color: rgba(0,0,0,0.2);
+		text-align: center;
+		padding-top: 40px;
+	}
+	.line-logo {
+		margin-left: 0;
+	}
+	.nav-info {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 20px 30px 20px;
+	}
+	.navigation {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.icon-margin {
+		margin-left: 0px !important;
+	}
+	.navigat {
+		margin-left: 0;
+		font-size: 30px;
+	}
+	/*Join the colors*/
+	.h1 {
+		font-size: 60px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.head {
+		text-align: center;		
+	}
+	/*There are only 3 colors, 10 digits*/
+	.section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.h2 {
+		font-size: 36px;
+	}	
+	.subtitle {
+		font-size: 22px;
+	}
+
+		/*optimized*/
+	.servis {		
+		flex-direction: column;
+	}
+	.optimized {
+		width: 100%;
+		padding: 6% 8% 4% 10%;
+		
+	}
+	.h3 {
+		font-size: 26px;
+	}
+	.text-lorem {
+		font-size: 18px;
+	}
+	.responsive {
+		width: 100%;
+		padding: 6% 8% 4% 10%;
+	}
+	.services {
+		width: 100%;
+		padding: 6% 8% 4% 10%;
+	}
+	.btn {
+		font-size: 30px;
+		width: 180px;
+		height: 50px;
+		margin-top: 40px;
+	}
+	.footer-сopyright {
+		font-size: 18px;
+	}
+}	
+	
+@media screen and (max-width: 576px) {
+	.container {
+		width: auto;
+		/*overflow-x: hidden;	*/
+	}
+
+	.navbar {
+		background-color: rgba(0,0,0,0.0);
+		padding-top: 20px;
+	}
+	/*.section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}*/
+/*menu-nav*/
+	/*.menu-nav {
+		margin-top: 0 !important;
+	}	
+	.navigat {
+		font-size: 20px;
+	}*/
+	.navigation ul li {
+		margin: 0 4px;
+	}
+	.head {
+		text-align: center;
+	}
+	.line-logo {
+		margin-left: 0;
+	}
+	.nav-info {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.navigat {
+		margin-left: 0; 
+		text-align: center; 
+	}
+	/*Join the colors*/
+	.h1 {
+		font-size: 40px;
+	}
+	.title {
+		font-size: 18px;
+	}
+	.h2 {
+		font-size: 28px;
+	}
+	.h3 {
+		font-size: 26px;
+	}
+	.text-lorem {
+		font-size: 14px !important;
+	}
+	.subtitle {
+		font-size: 18px !important;
+	}
+	/*optimized*/
+
+
+	.servis {		
+		flex-direction: column;
+	}
+	.optimized {
+		width: 100%;
+		padding: 12% 8% 4% 10%;
+	}
+	.responsive {
+		width: 100%;
+		padding: 12% 8% 4% 10%;
+	}
+	.services {
+		width: 100%;
+		padding: 12% 8% 4% 10%;
+	}
+	/*Music is all of a sudden much*/
+	.music-head {
+		font-size: 30px;
+	}
+}
