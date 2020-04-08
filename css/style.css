@@ -10,8 +10,7 @@ a {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	
+	font-size: 14px;	
 }
 .container {
 	width: 1170px;
@@ -50,7 +49,6 @@ a {
 .navigat:hover {
 	border-bottom: 1px solid #fdbfc3;
 	color: #fdbfc3;
-
 } 
 .line-logo {
 	margin-left: -40px;
@@ -85,9 +83,7 @@ a {
 }
 .head {
 	color: #fff !important;
-	/*margin-top: 200px;*/
 	font-family: 'Open Sans', sans-serif;
-	
 }
 .title {
 	margin-top: 10px;
@@ -100,15 +96,14 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 }
-
 .subtitle {
 	font-size: 14px;
 	color: #404040;
 	margin-top: 25px;
 }
 /*.optimized*/
-.fon {
-	/*background: #404040;*/
+.gradient {
+	background: linear-gradient(to right,#404040 50%, #2d5f3b 50%); 
 }
 .h3 {
 	font-size: 22px;
@@ -116,25 +111,22 @@ a {
 	margin-left: 15px;
 }
 .optimized {
-	width: 39%;
+	width: 476px;
 	height: 306px;
 	background: #404040;
-	padding: 2% 2% 2% 19%; 
-	/*padding: 30px 35px 60px 300px;*/
+	padding: 35px 48px 35px 48px;
 }
 .responsive {
-	width: 22%;
+	width: 365px;
 	height: 306px;
 	background: #f74c55;
-	padding: 2% 2% 2% 2%;
-	/*padding: 30px 35px 60px 35px;*/
+	padding: 35px 48px 35px 48px;
 }
 .services {
-	width: 39%;
+	width: 440px;
 	height: 306px;
-	background: #2d5f3b;
-	padding: 2% 19% 2% 2%;
-	/*padding: 30px 300px 60px 35px;*/
+	background: #2d5f3b;	
+	padding: 35px 48px 35px 48px;
 }
 .bagraund-plus {
 	width: 32px;
@@ -150,17 +142,12 @@ a {
 .bagraund-plus:hover {
 	background: rgba(39,39,39,1);
 }
-.bloc {
-	
-
-}
 .text-lorem {
 	font-size: 14px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 15px;
 }
-
 .black {
 	width: 36px;
 	height: 10px;
@@ -180,17 +167,12 @@ a {
 	width: 36px;
 	height: 10px;
 	background: #f74c55;
-
 }
-
-
-
 .green {
 	width: 36px;
 	height: 10px;
 	background: #2d5f3b;
 }
-
 /*Music*/
 .music-bagraund {
 	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('../img/Layer.png');
@@ -222,9 +204,7 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	margin-top: 25px
-}
-
-		
+}		
 @media screen and (max-width: 768px) {	
 	.container {
 		width: 100%;
@@ -283,15 +263,15 @@ a {
 	.subtitle {
 		font-size: 22px;
 	}
-
 		/*optimized*/
+	.gradient {
+	background: linear-gradient(to right,#fff 50%, #fff 50%); 
+	}	
 	.servis {		
 		flex-direction: column;
 	}
 	.optimized {
 		width: 100%;
-		padding: 6% 8% 4% 10%;
-		
 	}
 	.h3 {
 		font-size: 26px;
@@ -300,12 +280,10 @@ a {
 		font-size: 18px;
 	}
 	.responsive {
-		width: 100%;
-		padding: 6% 8% 4% 10%;
+		width: 100%;		
 	}
 	.services {
-		width: 100%;
-		padding: 6% 8% 4% 10%;
+		width: 100%;		
 	}
 	.btn {
 		font-size: 30px;
@@ -313,32 +291,21 @@ a {
 		height: 50px;
 		margin-top: 40px;
 	}
+	.music-bagraund {
+		margin-top: 30px;
+	}
 	.footer-сopyright {
 		font-size: 18px;
 	}
-}	
-	
+}		
 @media screen and (max-width: 576px) {
 	.container {
-		width: auto;
-		/*overflow-x: hidden;	*/
+		width: auto;	
 	}
-
 	.navbar {
 		background-color: rgba(0,0,0,0.0);
 		padding-top: 20px;
 	}
-	/*.section {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}*/
-/*menu-nav*/
-	/*.menu-nav {
-		margin-top: 0 !important;
-	}	
-	.navigat {
-		font-size: 20px;
-	}*/
 	.navigation ul li {
 		margin: 0 4px;
 	}
@@ -377,25 +344,23 @@ a {
 		font-size: 18px !important;
 	}
 	/*optimized*/
-
-
 	.servis {		
 		flex-direction: column;
 	}
 	.optimized {
-		width: 100%;
-		padding: 12% 8% 4% 10%;
+		width: 100%;		
 	}
 	.responsive {
-		width: 100%;
-		padding: 12% 8% 4% 10%;
+		width: 100%;		
 	}
 	.services {
-		width: 100%;
-		padding: 12% 8% 4% 10%;
+		width: 100%;		
 	}
 	/*Music is all of a sudden much*/
 	.music-head {
 		font-size: 30px;
+	}
+	.music-bagraund {
+		margin-top: 0;
 	}
 }
